@@ -2,7 +2,8 @@
 
 A small utility for converting between different bases. (WIP)
 
-use: 'string' [format] [outputformat]    
+use: `python3 baseflipper.py` 
+     `string [format] [outputformat]`    
 
 ### formats:
 command | base
