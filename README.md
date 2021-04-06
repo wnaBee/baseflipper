@@ -2,6 +2,7 @@
 
 A small utility for converting between different bases. (WIP)
 
+`
 use: 'string' [--format] [--outputformat]    
 --formats:
 -h             hexadecimal
@@ -18,3 +19,4 @@ use: 'string' [--format] [--outputformat]
 -2b64          base64 --help
 
 --help         this information
+`
