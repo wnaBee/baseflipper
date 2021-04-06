@@ -2,9 +2,11 @@
 
 A small utility for converting between different bases. (WIP)
 
-use: `python3 baseflipper.py` 
-     `string [format] [outputformat]`    
-
+use: 
+```
+python3 baseflipper.py
+inputstring [format] [outputformat]  
+```
 ### formats:
 command | base
 --------- | ---------
