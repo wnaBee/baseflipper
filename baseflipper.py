@@ -17,14 +17,14 @@ def to_bin_conversion(inp, form):
 		for i in range(len(byteArray)):
 			BinaryValues = bin(int(byteArray[i], 16))
 			out.append(BinaryValues[2:].zfill(8))
-		return('00100000'.join(out))
+		return(''.join(out))
 
 	elif form == "dec":
 		byteArray = formatted.split()
 		for i in range(len(byteArray)):
 			BinaryValues = bin(int(byteArray[i]))
 			out.append(BinaryValues[2:].zfill(8))
-		return('00100000'.join(out))
+		return(''.join(out))
 
 	elif form == "b64":
 		formatted = base64.b64decode(formatted).decode('utf-8')
