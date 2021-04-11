@@ -1,6 +1,6 @@
 # baseflipper
 
-A small utility for converting between different bases. (WIP)
+A small utility for converting between different bases.
 
 use: 
 ```
